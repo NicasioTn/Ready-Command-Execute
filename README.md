@@ -1,8 +1,8 @@
-# CMD_Challenge
+# Ready Command Execute
 
 ### Windows
 C:\Users>
-Check cache connection of wireless lan 
+Check the cache connection of the wireless LAN 
 ```
 netsh wlan show profile name="[SSID]" key=clear | findstr "SSID name Key content"
 ```
